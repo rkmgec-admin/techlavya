@@ -146,7 +146,7 @@ const TshirtSection = () => {
               >
                 <div className="mx-auto w-full max-w-[320px] md:max-w-[420px] lg:max-w-[480px]">
                   <Image
-                    src="/tshirt.png"
+                    src="/tshirt.webp"
                     alt="Techlavya signature t-shirt"
                     width={640}
                     height={640}
@@ -180,7 +180,7 @@ const TshirtSection = () => {
                 <span className="text-2xl md:text-3xl font-bold text-highlight font-spaceGrotesk tracking-widest">
                   ₹299
                 </span>
-                <span className="text-accent/40 line-through text-[10px] md:text-xs font-kodeMono">
+                <span className="text-accent/40 line-through text-lg md:text-base font-kodeMono">
                   599
                 </span>
               </div>

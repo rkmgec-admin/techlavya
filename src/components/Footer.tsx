@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
                 {/* Copyright */}
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-center md:text-left text-xs text-muted-foreground font-kodeMono tracking-[0.2em] uppercase">
-                        ©202X TECHLAVYA SYSTEM. ALL PROTOCOLS RESERVED.
+                        ©2026 TECHLAVYA SYSTEM. ALL PROTOCOLS RESERVED.
                     </p>
                     <p className="text-center md:text-right text-xs text-muted-foreground font-kodeMono tracking-widest flex items-center gap-1.5 uppercase">
                         BUILT BY <span className="text-accent underline decoration-accent/30 underline-offset-4">TEAM TECHLAVYA</span>
