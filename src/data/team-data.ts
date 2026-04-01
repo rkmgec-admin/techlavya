@@ -19,13 +19,13 @@ export const teamMembers: TeamMember[] = [
     "linkedin": "https://www.linkedin.com/in/soumensantra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
-    "name": "Sk Shahriar",
+    "name": "Chandan Sil",
     "role": "Vice-President",
-    "image": "/team/2.jpg",
-    "facebook": "",
-    "instagram": "",
+    "image": "/team/17.jpg",
+    "facebook": "https://www.facebook.com/share/17R2ET9yMZ/",
+    "instagram": "https://www.instagram.com/_chandan8__?igsh=NTkxNDJuaHFxZDM3",
     "twitter": "",
-    "linkedin": "https://www.linkedin.com/in/sk-shahriar-a49720319/"
+    "linkedin": ""
   },
   {
     "name": "Supratim Haldar",
@@ -153,12 +153,13 @@ export const teamMembers: TeamMember[] = [
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/ayan-munshi-071727231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
+  
   {
-    "name": "Chandan Sil",
+    "name": "Rahul Mahato",
     "role": "Decoration Co-Head",
-    "image": "/team/17.jpg",
-    "facebook": "https://www.facebook.com/share/17R2ET9yMZ/",
-    "instagram": "https://www.instagram.com/_chandan8__?igsh=NTkxNDJuaHFxZDM3",
+    "image": "/team/2.jpeg",
+    "facebook": "https://www.facebook.com/rahul.mahato.593115?mibextid=rS40aB7S9Ucbxw6v",
+    "instagram": "https://www.instagram.com/pa_ppu_002?utm_source=qr&igsh=MXZxbm9uejNtbXJpag==",
     "twitter": "",
     "linkedin": ""
   },
