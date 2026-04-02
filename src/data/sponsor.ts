@@ -14,4 +14,8 @@ export const sponsorData: sponsorDataType[] = [
   { img: "/sponsor/sagar-raj-resorts.png" },
   { img: "/sponsor/sri-rajgharia.png" },
   { img: "/sponsor/telegraph.png" },
+  { img: "/sponsor/4.png" },
+  { img: "/sponsor/3.png" },
+  { img: "/sponsor/2.png" },
+  { img: "/sponsor/1.png" },
 ];
