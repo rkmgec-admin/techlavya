@@ -1,4 +1,5 @@
 import ClientLayout from "@/components/ClientLayout";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Kode_Mono, Bruno_Ace, Orbitron, Space_Grotesk, Sora, Inter, Poppins } from "next/font/google";
@@ -80,6 +81,7 @@ export default function RootLayout({
         className={`${digitalFont.variable} ${kodeMonoFont.variable} ${brunoAceFont.variable} ${orbitronFont.variable} ${spaceGrotesk.variable} ${sora.variable} ${inter.variable} ${poppins.variable} antialiased w-full text-foreground bg-background font-inter`}
       >
         <ClientLayout>{children}</ClientLayout>
+        <Analytics />
       </body>
     </html>
   );

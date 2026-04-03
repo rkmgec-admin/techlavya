@@ -181,7 +181,7 @@ const TshirtSection = () => {
                   ₹299
                 </span>
                 <span className="text-accent/40 line-through text-lg md:text-base font-kodeMono">
-                  599
+                  499
                 </span>
               </div>
 

@@ -32,9 +32,11 @@ interface MobileTimelineEntry {
 }
 
 const FESTIVAL_DATES = [
-  { date: 13, month: 4, label: "DAY 1" },
-  { date: 14, month: 4, label: "DAY 2" },
-  { date: 15, month: 4, label: "DAY 3" },
+  { date: 11, month: 4, label: "DAY 1" },
+  { date: 12, month: 4, label: "DAY 2" },
+  { date: 13, month: 4, label: "DAY 3" },
+  { date: 14, month: 4, label: "DAY 4" },
+  { date: 15, month: 4, label: "DAY 5" },
 ];
 
 export const CalendarView: React.FC<CalendarViewProps> = ({
