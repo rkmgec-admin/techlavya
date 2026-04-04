@@ -23,10 +23,11 @@ interface EventDetailsModalProps {
 }
 
 const FESTIVAL_LABELS: Record<string, string> = {
-  "29-3": "DAY_00",
-  "30-3": "DAY_01",
-  "1-4": "DAY_02",
-  "2-4": "DAY_03",
+  "11-5": "DAY_01",
+  "12-5": "DAY_02",
+  "13-5": "DAY_03",
+  "14-5": "DAY_04",
+  "15-5": "DAY_05",
 };
 
 // Enhanced type config with terminal-style elements

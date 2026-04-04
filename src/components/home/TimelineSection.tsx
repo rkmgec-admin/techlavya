@@ -14,7 +14,7 @@ const TimelineSection: React.FC = () => {
       </div>
 
       <div className="mb-16 md:mb-24">
-        <CalendarView month={4} year={2026} events={events} allEvents={events} />
+        <CalendarView month={5} year={2026} events={events} allEvents={events} />
       </div>
     </div>
   );

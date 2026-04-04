@@ -32,11 +32,11 @@ interface MobileTimelineEntry {
 }
 
 const FESTIVAL_DATES = [
-  { date: 11, month: 4, label: "DAY 1" },
-  { date: 12, month: 4, label: "DAY 2" },
-  { date: 13, month: 4, label: "DAY 3" },
-  { date: 14, month: 4, label: "DAY 4" },
-  { date: 15, month: 4, label: "DAY 5" },
+  { date: 11, month: 5, label: "DAY 1" },
+  { date: 12, month: 5, label: "DAY 2" },
+  { date: 13, month: 5, label: "DAY 3" },
+  { date: 14, month: 5, label: "DAY 4" },
+  { date: 15, month: 5, label: "DAY 5" },
 ];
 
 export const CalendarView: React.FC<CalendarViewProps> = ({
@@ -49,8 +49,8 @@ export const CalendarView: React.FC<CalendarViewProps> = ({
   const [selectedMonth, setSelectedMonth] = useState<number | null>(null);
 
   // --- Grid Logic (Desktop) ---
-  const firstDay = new Date(year, month, 1).getDay();
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const firstDay = new Date(year, month - 1, 1).getDay();
+  const daysInMonth = new Date(year, month, 0).getDate();
   const daysOfWeek = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
   const calendarDays = useMemo(() => {
@@ -91,13 +91,13 @@ export const CalendarView: React.FC<CalendarViewProps> = ({
     // 3. Sort chronologically
     return Array.from(combinedMap.values()).sort(
       (a, b) =>
-        new Date(year, a.month, a.date).getTime() -
-        new Date(year, b.month, b.date).getTime()
+        new Date(year, a.month - 1, a.date).getTime() -
+        new Date(year, b.month - 1, b.date).getTime()
     );
   }, [events, year]);
 
   const formatMobileDate = (entry: MobileTimelineEntry) => {
-    const dt = new Date(year, entry.month, entry.date);
+    const dt = new Date(year, entry.month - 1, entry.date);
     return {
       weekday: dt.toLocaleDateString("en-US", { weekday: "short" }).toUpperCase(),
       monthDay: dt.toLocaleDateString("en-US", { month: "short", day: "2-digit" }),
