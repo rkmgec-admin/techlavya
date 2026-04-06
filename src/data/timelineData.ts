@@ -33,23 +33,23 @@ export const timelineData: TimelineEntry[] = [
       { date: 12, month: 5, title: "Clash of Clans", startTime: "20:00", endTime: "21:00", type: "esports", description: "Clash of Clans tournament match.", venue: "Esports Arena" },
 
       // Day 3 - May 13, 2026
-      { date: 13, month: 5, title: "Inauguration Ceremony", startTime: "09:00", endTime: "11:00", type: "holiday", description: "Festival opening ceremony.", venue: "Main Auditorium" },
-      { date: 13, month: 5, title: "AutoCAD (ME, CE)", startTime: "10:00", endTime: "13:00", type: "tech", description: "AutoCAD design challenge for Mechanical and Civil branches.", venue: "Mech/Civil Lab" },
-      { date: 13, month: 5, title: "Codethon", startTime: "10:00", endTime: "12:00", type: "tech", description: "Competitive coding challenge.", venue: "CS Lab Block" },
-      { date: 13, month: 5, title: "Project Exhibition", startTime: "14:00", endTime: "17:00", type: "tech", description: "Project showcase and evaluation.", venue: "Exhibition Hall" },
-      { date: 13, month: 5, title: "Typing Test", startTime: "17:00", endTime: "19:00", type: "tech", description: "Typing speed and accuracy competition.", venue: "CS Lab Block" },
-      { date: 13, month: 5, title: "Robo Rush", startTime: "19:00", endTime: "21:00", type: "tech", description: "Robo Rush competition rounds.", venue: "Robotics Lab" },
+      { date: 13, month: 5, title: "Inauguration Ceremony", startTime: "09:00", endTime: "11:00", type: "holiday", description: "Festival opening ceremony.", venue: "EE Seminar Hall" },
+      { date: 13, month: 5, title: "AutoCAD (ME, CE)", startTime: "10:00", endTime: "13:00", type: "tech", description: "AutoCAD design challenge for Mechanical and Civil branches.", venue: "CAD LAB" },
+      { date: 13, month: 5, title: "Codethon", startTime: "10:00", endTime: "12:00", type: "tech", description: "Competitive coding challenge.", venue: "CE seminar hall" },
+      { date: 13, month: 5, title: "Project Exhibition", startTime: "14:00", endTime: "17:00", type: "tech", description: "Project showcase and evaluation.", venue: "ECE seminar hall" },
+      { date: 13, month: 5, title: "Typing Test", startTime: "17:00", endTime: "19:00", type: "tech", description: "Typing speed and accuracy competition.", venue: "CAD LAB" },
+      { date: 13, month: 5, title: "Robo Rush", startTime: "19:00", endTime: "21:00", type: "tech", description: "Robo Rush competition rounds.", venue: "Workshop Hall" },
 
       // Day 4 - May 14, 2026
-      { date: 14, month: 5, title: "Hackathon Begins", startTime: "09:00", type: "tech", description: "Hackathon kickoff and coding starts.", venue: "CS Lab Block" },
-      { date: 14, month: 5, title: "Circuit Design", startTime: "11:00", endTime: "13:00", type: "tech", description: "Circuit design and implementation round.", venue: "Electronics Lab" },
-      { date: 14, month: 5, title: "Line Follower Robot", startTime: "14:00", endTime: "16:00", type: "tech", description: "Autonomous robot line tracking competition.", venue: "Robotics Lab" },
+      { date: 14, month: 5, title: "Hackathon Begins", startTime: "09:00", type: "tech", description: "Hackathon kickoff and coding starts.", venue: "CSE seminar hall" },
+      { date: 14, month: 5, title: "Circuit Design", startTime: "11:00", endTime: "13:00", type: "tech", description: "Circuit design and implementation round.", venue: "ECE Lab" },
+      { date: 14, month: 5, title: "Line Follower Robot", startTime: "14:00", endTime: "16:00", type: "tech", description: "Autonomous robot line tracking competition.", venue: "Workshop Hall" },
       { date: 14, month: 5, title: "Treasure Hunt", startTime: "16:00", endTime: "18:00", type: "holiday", description: "Campus treasure hunt activity.", venue: "Campus Grounds" },
-      { date: 14, month: 5, title: "Tech Quiz", startTime: "18:00", endTime: "20:00", type: "tech", description: "Technical quiz competition.", venue: "Seminar Hall A" },
+      { date: 14, month: 5, title: "Tech Quiz", startTime: "18:00", endTime: "20:00", type: "tech", description: "Technical quiz competition.", venue: "CE Seminar" },
 
       // Day 5 - May 15, 2026
-      { date: 15, month: 5, title: "Hackathon Ends", startTime: "09:00", type: "tech", description: "Hackathon submission closes.", venue: "CS Lab Block" },
-      { date: 15, month: 5, title: "Hackathon Presentation", startTime: "10:00", endTime: "13:00", type: "tech", description: "Final judging and team presentations.", venue: "Main Auditorium" },
+      { date: 15, month: 5, title: "Hackathon Ends", startTime: "09:00", type: "tech", description: "Hackathon submission closes.", venue: "CSE seminar hall" },
+      { date: 15, month: 5, title: "Hackathon Presentation", startTime: "10:00", endTime: "13:00", type: "tech", description: "Final judging and team presentations.", venue: "CSE seminar hall" },
     ],
   },
 ];
