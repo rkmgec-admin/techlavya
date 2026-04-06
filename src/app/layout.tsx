@@ -1,5 +1,6 @@
 import ClientLayout from "@/components/ClientLayout";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Kode_Mono, Bruno_Ace, Orbitron, Space_Grotesk, Sora, Inter, Poppins } from "next/font/google";
@@ -82,6 +83,7 @@ export default function RootLayout({
       >
         <ClientLayout>{children}</ClientLayout>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

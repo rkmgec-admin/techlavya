@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Title from './Title';
-import { Mail, MapPin, Send, Clock } from 'lucide-react';
+import { Mail, MapPin, Send, Clock, Phone } from 'lucide-react';
 import './ContactForm.css';
 
 const ContactForm = () => {
@@ -93,7 +93,7 @@ const ContactForm = () => {
             </div>
 
             {/* Phone */}
-            {/* <div className="group p-6 rounded-[20px] border border-accent/10 bg-secondary-bg/20 backdrop-blur-md hover:border-primary/40 hover:bg-secondary-bg/40 hover:shadow-[0_10px_30px_rgba(184,92,56,0.15)] transition-all duration-500 overflow-hidden relative">
+            <div className="group p-6 rounded-[20px] border border-accent/10 bg-secondary-bg/20 backdrop-blur-md hover:border-primary/40 hover:bg-secondary-bg/40 hover:shadow-[0_10px_30px_rgba(184,92,56,0.15)] transition-all duration-500 overflow-hidden relative">
               <div className="absolute top-0 left-0 w-1 h-full bg-primary/50 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
               <div className="flex items-start gap-5 relative z-10">
                 <div className="p-3.5 rounded-xl bg-background border border-accent/10 text-primary group-hover:border-primary/50 group-hover:shadow-[0_0_15px_rgba(184,92,56,0.3)] transition-all duration-300">
@@ -101,12 +101,12 @@ const ContactForm = () => {
                 </div>
                 <div className="flex flex-col justify-center pt-1">
                   <h4 className="text-accent/60 font-kodeMono text-[10px] tracking-[0.2em] mb-1 uppercase">Voice_Channel</h4>
-                  <a href="tel:+919876543210" className="text-foreground font-inter hover:text-highlight transition-colors text-sm sm:text-base tracking-wide">
-                    +91 98765 43210
+                  <a href="tel:+917478759371" className="text-foreground font-inter hover:text-highlight transition-colors text-sm sm:text-base tracking-wide">
+                    +91 74787 59371
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             {/* Location */}
             <div className="group p-6 rounded-[20px] border border-accent/10 bg-secondary-bg/20 backdrop-blur-md hover:border-primary/40 hover:bg-secondary-bg/40 hover:shadow-[0_10px_30px_rgba(184,92,56,0.15)] transition-all duration-500 overflow-hidden relative">
