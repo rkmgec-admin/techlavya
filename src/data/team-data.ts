@@ -120,7 +120,7 @@ export const teamMembers: TeamMember[] = [
   {
     "name": "Bodhisattwa Gorain",
     "role": "Sponsorship Co-Head",
-    "image": "/team/13.jpg",
+    "image": "/team/13.jpeg",
     "facebook": "",
     "instagram": "",
     "twitter": "",
