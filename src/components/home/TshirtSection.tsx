@@ -178,7 +178,7 @@ const TshirtSection = () => {
             <div className="space-y-6">
               <div className="flex items-baseline gap-2 md:gap-3">
                 <span className="text-2xl md:text-3xl font-bold text-highlight font-spaceGrotesk tracking-widest">
-                  ₹299
+                  ₹300
                 </span>
                 <span className="text-accent/40 line-through text-lg md:text-base font-kodeMono">
                   499
