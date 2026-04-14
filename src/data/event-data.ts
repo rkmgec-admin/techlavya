@@ -90,7 +90,7 @@ export const TechlavyaEventData: EventDataType[] = [
     contact: 'Yet to be announced',
     lastDate: '4th May',
     registrationLink: 'https://unstop.com/competitions/acadexpo-techlavya-ignite-2026-ramkrishna-mahato-government-engineering-college-purulia-1645493',
-    eventDate: '14th May 2026',
+    eventDate: '13th May 2026',
     type: 'techlavya'
   },
   {
