@@ -145,13 +145,13 @@ export const teamMembers: TeamMember[] = [
     "linkedin": "https://www.linkedin.com/in/anishbhangar/"
   },
   {
-    "name": "Ayan Munshi",
+    "name": "Sandip Mahata",
     "role": "Decoration Head",
-    "image": "/team/16.jpg",
-    "facebook": "",
-    "instagram": "https://www.instagram.com/am_bitiou_s?igsh=MXV6bWxtdmVtdjdhNg==",
+    "image": "/team/16.jpeg",
+    "facebook": "https://www.facebook.com/share/1BNd8rpCZt/",
+    "instagram": "https://www.instagram.com/i_am_sandip180?igsh=MTR3eGtsdnhpNG13ag%3D%3D",
     "twitter": "",
-    "linkedin": "https://www.linkedin.com/in/ayan-munshi-071727231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    "linkedin": "https://www.linkedin.com/in/sandip-mahata-19sa03?utm_source=share_via&utm_content=profile&utm_medium=member_android"
   },
   
   {

@@ -100,7 +100,9 @@ const EventCard: React.FC<Props> = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleMouseLeave}
       style={{ perspective: "1400px" }}
-      className="relative w-full max-w-[360px] aspect-[3/4] mx-auto"
+      className={`relative w-full max-w-[360px] aspect-[3/4] mx-auto ${
+        isFlipped || isHovered ? "z-20" : "z-10"
+      }`}
     >
       {/* 3D ROTATION CONTAINER */}
       <motion.div
@@ -118,7 +120,11 @@ const EventCard: React.FC<Props> = ({
           className="relative w-full h-full"
         >
           {/* ================= FRONT ================= */}
-          <div className="absolute inset-0 backface-hidden">
+          <div
+            className={`absolute inset-0 backface-hidden ${
+              isFlipped ? "pointer-events-none" : "pointer-events-auto"
+            }`}
+          >
             <div className="relative w-full h-full rounded-[2rem] overflow-hidden border border-[#3a2a1d] bg-[#1a120b] shadow-[0_20px_80px_rgba(0,0,0,0.6)]">
               {/* Glow */}
               <div className="absolute -inset-1 bg-gradient-to-r from-amber-600/20 to-yellow-500/10 blur-xl opacity-0 group-hover:opacity-100 transition" />
@@ -161,7 +167,11 @@ const EventCard: React.FC<Props> = ({
           </div>
 
           {/* ================= BACK ================= */}
-          <div className="absolute inset-0 rotate-y-180 backface-hidden">
+          <div
+            className={`absolute inset-0 rotate-y-180 backface-hidden ${
+              isFlipped ? "pointer-events-auto" : "pointer-events-none"
+            }`}
+          >
             <div className="relative w-full h-full rounded-[2rem] bg-[#120c07] border border-[#3a2a1d] p-5 flex flex-col gap-3 overflow-hidden">
               <div className="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-amber-400/10 blur-2xl" />
               <div className="absolute -left-16 bottom-20 h-40 w-40 rounded-full bg-yellow-500/5 blur-3xl" />
